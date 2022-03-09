@@ -1,0 +1,36 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.box {
+    width: 500px;
+    height: 500px;
+    background-color: red;
+
+}
+
+.button--nav {
+    width: 100px;
+    height: 50px;
+    border-width: 0px;
+}
+
+.button--clicker {
+    border-radius: 50%;
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    position: fixed;
+
+}
+
+.clicker--button {
+    background-color: blue;
+    border: none;
+    margin-top: 80px;
+    border-radius: 50%;
+}
+
+.clicker--img {
+    border-radius: 50%;
+}

@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Fifek Clicker</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>   
+        <center><button onclick="addToScore(1), document.getElementById('sound1').play();" onclick="document.getElementById('sound1').play();" class="clicker--button">Click</button></center>
+        <audio id="sound1" src="SF-ok.mp3" preload="auto"></audio>
+        <center><p>Score: <span id="score">0</span></p></center>
+        <script>
+            var score = 0;
+
+
+            function addToScore(amount) {
+                score = score + amount;
+                document.getElementById("score").innerHTML = score;
+
+            }
+        </script>
+
+        
+    </body>
+</html>
